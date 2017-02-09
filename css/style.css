@@ -1,0 +1,129 @@
+
+head {
+  
+}
+
+body {
+  background-image: url("https://images2.alphacoders.com/553/553697.jpg");
+}
+
+#title {
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  color: white;
+  text-shadow: 5px 5px black;
+}
+
+#textbox {
+  background-color: white;
+  width: 20%;
+  height: 50%;
+  border-style: solid;
+  border-thickness: 5px;
+  text-align: center;
+  margin-left: 40%;
+  padding: 2em;
+}
+
+#start {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
+}
+
+#x {
+  margin-left: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+#o {
+  margin-right: 1em;
+  margin-bottom: 1em;
+
+}
+
+#reset {
+  margin-left: 47%;
+  margin-top: 1em;
+}
+
+#tictac {
+  width: 50%;
+  height: 50%;
+  /*border: solid;
+  border-color: black;
+  border-width: 5px;*/
+  margin-left: 25%;
+  padding: 0.5em;
+  padding-right: 2em;
+}
+
+.tic {
+  width: 116%;
+  height: 2.5em;
+  /*margin-top: 0.25em;
+  margin-bottom: 0.25em;*/
+  display: inline-block;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+.zero {
+  border: solid;
+  border-color: black;
+  border-width: 0px 10px 10px 0px;
+  border-radius: 50px 0px 0px 0px;
+}
+
+.one {
+  border: solid;
+  border-color: black;
+  border-width: 0px 10px 10px 10px;
+}
+
+.two {
+  border: solid;
+  border-color: black;
+  border-width: 0px 0px 10px  10px;
+  border-radius: 0px 50px 0px 0px;
+}
+
+.three {
+  border: solid;
+  border-color: black;
+  border-width: 10px 10px 10px  0px;
+}
+
+.four {
+  border: solid;
+  border-color: black;
+  border-width: 10px 10px 10px  10px;
+}
+
+.five {
+  border: solid;
+  border-color: black;
+  border-width: 10px 0px 10px  10px;
+}
+
+.six {
+  border: solid;
+  border-color: black;
+  border-width: 10px 10px 0px  0px;
+  border-radius: 0px 0px 0px 50px;
+}
+
+.seven {
+  border: solid;
+  border-color: black;
+  border-width: 10px 10px 0px  10px;
+}
+
+.eight {
+  border: solid;
+  border-color: black;
+  border-width: 10px 0px 0px  10px;
+  border-radius: 0px 0px 50px 0px;
+}
